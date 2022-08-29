@@ -5,7 +5,7 @@ var outputDiv = document.querySelector(".output-div") ;
 console.log(btnInput);
 
 function clickHandler(){
-    outputDiv.innerText = "euhhdij" +btnInput.value; 
+    outputDiv.innerText = "euhhdij " +btnInput.value; 
 }
 
 btnTranslate.addEventListener("click", clickHandler);
