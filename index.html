@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,29 @@
 </head>
 <style>
     textarea {
-        height: 100px;
-        width: 450px;
+        height: 12vh;
+        width: 80%;
         padding: 1rem;
         border: solid 2px;
+        margin: 1rem;
+    }
+
+    div {
+        height: 16vh;
+        width: 83%;
+        border: solid black 2px;
+        margin: 1rem;
+    }
+    h1{
+        margin: 1rem;
     }
 </style>
 
 <body>
     <h1>hi this is banana talk</h1>
-   <button id="input-btn"></button>
-    <textarea  placeholder="put your sentence here and we will convert it into banana." class="txt-input"></textarea>
-    <input type="text" name="translator" id="">
-    <button class="btn-primary" id="btn-translate" style="border: solid black 2px;">Translate</button>
+    <textarea placeholder="put your sentence here and we will convert it into banana." class="txt-input"></textarea>
+    <button class="btn-primary" id="btn-translate" style="border: solid black 2px; margin: 1rem; display: block;">Translate</button>
+    <div class="output-div"></div>
     <script src="app.js"></script>
 </body>
 
